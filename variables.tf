@@ -1,6 +1,7 @@
 variable "location" {
   description = "The location where resources will be created"
-  default     = "East US"
+  type        = string
+  default     = ""
 }
 
 variable "tags" {
